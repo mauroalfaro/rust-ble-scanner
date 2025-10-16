@@ -1,0 +1,12 @@
+﻿[package]
+name = "rust-ble-scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+btleplug = "0.11"
+uuid = { version = "1", features = ["v4", "serde"] }
